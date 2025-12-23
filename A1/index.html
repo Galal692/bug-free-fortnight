@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/master.css" />
+  <link rel="stylesheet" href="CSS/framework.css" />
+</head>
+
+<body>
+  <header class="container padding-20 mar-b-30">
+    <h1 id="title">Calc</h1>
+    <section>
+      <p id="p">THEME</p>
+      <div class="button">
+        <ul id="ul">
+          <li>1</li>
+          <li>2</li>
+        </ul>
+        <div id="bto"  class="bto button-first-theme">
+          <div id="toggle" class="toggle toggle-first-theme"></div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <div class="input container ">
+    <input id="input" type="text" class="mar-b-30">
+  </div>
+  <div id="grid-buttons" class="buttons container padding-20">
+    <button onclick="getValue(this)" value="7">7</button>
+    <button onclick="getValue(this)" value="8">8</button>
+    <button onclick="getValue(this)" value="9">9</button>
+    <button onclick="del()"> DEL</button>
+    <button onclick="getValue(this)" value="4">4</button>
+    <button onclick="getValue(this)" value="5">5</button>
+    <button onclick="getValue(this)" value="6">6</button>
+    <button onclick="getValue(this)" value="+">+</button>
+    <button onclick="getValue(this)" value="1">1</button>
+    <button onclick="getValue(this)" value="2">2</button>
+    <button onclick="getValue(this)" value="3">3</button>
+    <button onclick="getValue(this)" value="-">-</button>
+    <button onclick="getValue(this)" value=".">.</button>
+    <button onclick="getValue(this)" value="0">0</button>
+    <button onclick="getValue(this)" value="/">/</button>
+    <button onclick="getValue(this)" value="*">x</button>
+    <button onclick="aa()">Rest</button>
+    <button id="equal">=</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body{
+  background: #E6E6E6;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > section{
+  display: flex;
+  align-items: center;
+  align-items: end;
+}
+header > section p{
+  margin-right: 30px;
+}
+.bto{
+  height: 40px;
+  border-radius: 20px;
+  width: 90px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.home-2{
+  justify-content: flex-end;
+}
+#bto .toggle{
+  transition: 0.4s;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.button ul li{
+  display: inline-block;
+
+}
+.button ul{
+  display: flex;
+  justify-content: space-between;
+  padding:5px 10px;
+}
+
+input{
+  padding: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 32px;
+}
+
+.buttons{
+  background: #D3CDCD;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  border-radius: 15px;
+}
+.buttons button{
+  padding: 20px;
+  background: white; /*this will change*/
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 0 6px 0 #A99D91; /*this will change*/
+}
+.buttons button:nth-child(18){
+  background: #C85401; /*will change*/
+  grid-column: 3/-1;
+  box-shadow: 0 6px 0 #873B01; /*this will change*/
+  color: white; /*will chnage*/
+}
+.buttons button:nth-child(17){
+  background:#388187; /*will change*/
+  grid-column: 1/3;
+  box-shadow: 0 6px 0 #1C6168; /*this will change*/
+  color: white; /*will chnage*/
+}
+.buttons button:nth-child(4){
+  box-shadow: 0 6px 0 #1C6168; /*this will change*/
+  background: #388187; /*will change*/
+  color: white; /*will chnage*/
+}
+/* start first theme */
+.button-first-theme{
+  background: #D3CDCD;
+}
+.toggle-first-theme{
+  background: #C55406 !important;
+}
+.search-first-theme{
+  background: white;
+  color: yellow;
+}
+/* second theme */
+
+.input-home-two{
+  background: #181F32;
+  color: white;
+}
+
+.grid-buttons-home-two{
+  background: #252D44;
+}
